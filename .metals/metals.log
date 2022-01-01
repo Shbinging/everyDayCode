@@ -1,0 +1,4 @@
+[0m2021.12.10 16:12:54 INFO  Started: Metals version 0.10.9 in workspace '/home/ubuntu/everyDayCode' for client Visual Studio Code 1.63.0.[0m
+[0m2021.12.10 16:12:55 INFO  time: initialize in 1.09s[0m
+[0m2021.12.10 16:12:55 WARN  Build server is not auto-connectable.[0m
+[0m2021.12.10 16:12:55 WARN  no build tool detected in workspace '/home/ubuntu/everyDayCode'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
