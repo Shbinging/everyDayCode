@@ -6,7 +6,7 @@ using namespace std;
 
 const int maxn = 20;
 const int maxm = 300;
-double f[1048580][100];
+double f[1048580/4][100];
 double p[maxn];
 int main(){
     int n, k;

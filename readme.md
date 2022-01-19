@@ -130,3 +130,40 @@ $k$从大到小转移，枚举 $$\sum_{k}^{i}a$$ 的所有约数 $d$, 并且 $d$
     }
 ```
 
+[4008. 脉冲神经网络 - AcWing题库](https://www.acwing.com/problem/content/description/4011/)
+
+最后30分要降低复杂度，做常数优化。
+
+用堆实现的复杂度是$O(T*(N+P)*log(S))$
+
+用滚动数组实现的复杂度是 $O(T*(N+P))$
+
+[3412. 邻域均值 - AcWing题库](https://www.acwing.com/problem/content/3415/)
+
+二位前缀和及二维部分和
+
+$s[i][j] = s[i-1][j] + s[i][j-1] - s[i-1][j-1] + a[i][j]$
+
+$\sum_{i=li}^{i=ri}\sum_{j=lj}^{j=rj}a[i][j] = s[ri][rj] - s[ri][lj-1] - s[li -1][rj] + s[li-1][lj-1]$
+
+时间、空间复杂度$O(n^2)$
+
+
+
+[3290. 1246 - AcWing题库](https://www.acwing.com/problem/content/3293/)
+
+考虑串的位数$<=2$，此时可以得出如下生成转移
+
+https://box.nju.edu.cn/f/c07a264e6f2243f69174/?dl=1
+
+要么转移的下一个数由一个数字生成，要么由两个数字生成，中间拼接而成。
+
+就可以形成递推式。
+
+通过矩阵乘法可以在$log$ 的时间内计算出答案。
+
+原理见
+
+https://box.nju.edu.cn/f/c07a264e6f2243f69174/?dl=1
+
+超过2位的可以通过模式匹配到2位，见demo中做法
